@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/979aacdde4.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <nav class="navbar fixed-top navbar-expand-lg navbar-light py-4" style="background-image: linear-gradient(to bottom, #b0c9f1 0%, #e3edf1 100%);">
@@ -50,19 +51,36 @@
     </div>
   <div class="container">
     <div class="mt-4">
-      <h2 class="h2" id="oneDay">第一日怎麼玩？</h2>
-      <p>第一天坐船過去-吃午餐-跨海大橋-海洋牧場+夜釣小管</p>
+      <h2 class="h2 text-center mb-4" id="oneDay">第一天怎麼玩？</h2>
+      <ul class="row flex-row justify-content-center">
+        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>跨海大橋</div></li>
+        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>耍廢、亂晃</div></li>
+        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>海洋牧場</div></li>
+        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>夜釣小管</div></li>
+      </ul>
     </div>
     <div>
-      <h2 class="h2" id="twoDay">第一日怎麼玩？</h2>
-      <p>第二天去大倉島-bbq</p>
+      <h2 class="h2 text-center mb-4" id="twoDay">第二天怎麼玩？</h2>
+      <ul class="row flex-row justify-content-center">
+        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>大倉島</div></li>
+        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>五合一水上活動</div></li>
+        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>餵燕鷗</div></li>
+        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>欣賞海蝕洞</div></li>
+        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>浮淺</div></li>
+        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>bbq</div></li>
+      </ul>
     </div>
     <div>
-      <h2 class="h2" id="threeDay">第一日怎麼玩？</h2>
-      <p>第三天-柱狀玄武岩-午餐-回家</p>
+      <h2 class="h2 text-center mb-4" id="threeDay">第三天怎麼玩？</h2>
+      <ul class="row flex-row justify-content-center">
+        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>柱狀玄武岩</div></li>
+        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>耍廢、亂晃</div></li>
+        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>午餐</div></li>
+        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>回家</div></li>
+      </ul>
     </div>
     <div>
-      <h2 class="h2" id="threeDay">預算</h2>
+      <h2 class="h2 text-center" id="threeDay">預算</h2>
       <table class="table table-striped table-hover">
         <thead>
           <tr>
@@ -109,6 +127,7 @@
           infinite: true,
           autoplaySpeed: 2000,
           autoplay: true,
+          arrows: true,
         });
         function scrollHandler(){
           console.log(window.scrollY)
