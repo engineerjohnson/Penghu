@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GO！澎湖三日游</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #b11d51;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">首頁</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#oneDay">第一日怎麼玩？</a>
+          <a class="nav-link" href="#twoDay">第二日怎麼玩？</a>
+          <a class="nav-link" href="#threeDay">第三日怎麼玩？</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="banner">
+    <div class="banner_text">
+      <h1 class="pt-2 h1 ml2">澎湖三日游</h1>
+      <p class="fs-2 mb-3">日期：2023/9/3～9/5</p>
+      <p class="fs-3">※要注意防曬哦!!</p>
+    </div>
+    <div class="slick">
+      <div class="slick_img">
+        <img src="image/Penghu.jpg" alt="" width="100%" height="600px">
+      </div>
+      <div>
+        <img src="image/2下載.jpg" alt=""  width="100%" height="600px">
+      </div>
+      <div>
+        <img src="image/下載.jpg" alt=""  width="100%" height="600px">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="mt-4">
+      <h2 class="h2" id="oneDay">第一日怎麼玩？</h2>
+      <p>第一天坐船過去-吃午餐-跨海大橋-海洋牧場+夜釣小管</p>
+    </div>
+    <div>
+      <h2 class="h2" id="twoDay">第一日怎麼玩？</h2>
+      <p>第二天去大倉島-bbq</p>
+    </div>
+    <div>
+      <h2 class="h2" id="threeDay">第一日怎麼玩？</h2>
+      <p>第三天-柱狀玄武岩-午餐-回家</p>
+    </div>
+    <div>
+      <h2 class="h2" id="threeDay">預算</h2>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="footer">
+    <p class="text-center py-3">純文案並無商業用途 2023 © All Rights Reserved</p>
+  </div>
+  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('.slick').slick({
+          dots: true,
+          infinite: true,
+          autoplaySpeed: 2000,
+          autoplay: true,
+        });
+    })
+    // Wrap every letter in a span
+    var textWrapper = document.querySelector('.ml2');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({loop: true})
+      .add({
+        targets: '.ml2 .letter',
+        scale: [4,1],
+        opacity: [0,1],
+        translateZ: 0,
+        easing: "easeOutExpo",
+        duration: 950,
+        delay: (el, i) => 70*i
+      }).add({
+        targets: '.ml2',
+        opacity: 0,
+        duration: 1000,
+        easing: "easeOutExpo",
+        delay: 1000
+      });
+  </script>
+</body>
+</html>
