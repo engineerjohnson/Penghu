@@ -49,13 +49,20 @@ table {
 img{
   vertical-align:top;
 }
+.navbar{
+  position: sticky;
+  transition:all 0.5s ease-out;
+}
+
 a{
     text-decoration: none;
     color: black;
 }
 .banner{
   height: 900px;
-  margin-top: 72px;
+  background-image: linear-gradient(50deg,rgba(210, 194, 226, 0.2),rgba(210, 194, 226, 0.2)),url(image/Penghu4.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .slick-slide img{

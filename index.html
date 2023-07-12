@@ -12,27 +12,28 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-4" style="background-color: #b11d51;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">首頁</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" href="#oneDay">第一日怎麼玩？</a>
-          <a class="nav-link" href="#twoDay">第二日怎麼玩？</a>
-          <a class="nav-link" href="#threeDay">第三日怎麼玩？</a>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light py-4" style="background-image: linear-gradient(to bottom, #9dc1fa 0%, #c2e9fb 100%);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">首頁</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link fw-bold" href="#oneDay">第一日怎麼玩？</a>
+            <a class="nav-link fw-bold" href="#twoDay">第二日怎麼玩？</a>
+            <a class="nav-link fw-bold" href="#threeDay">第三日怎麼玩？</a>
+          </div>
         </div>
       </div>
-    </div>
   </nav>
   <div class="banner">
-    <div class="banner_text">
+    <div class="banner_text text-center">
       <h1 class="pt-2 h1 ml2">澎湖三日游</h1>
       <p class="fs-2 mb-3">日期：2023/9/3～9/5</p>
-      <p class="fs-3">※要注意防曬哦!!</p>
+      <p class="fs-3">跨海大橋、海洋牧場、夜釣小管、大倉島+bbq、柱狀玄武岩</p>
     </div>
+  </div>
     <div class="slick container">
       <div class="slick_img">
         <img src="image/Penghu.jpg" alt="澎湖風景圖" width="50%" height="700px">
@@ -47,7 +48,6 @@
         <img src="image/Penghu3.jpg" alt="澎湖風景圖"  width="50%" height="700px">
       </div>
     </div>
-  </div>
   <div class="container">
     <div class="mt-4">
       <h2 class="h2" id="oneDay">第一日怎麼玩？</h2>
@@ -110,11 +110,13 @@
           autoplay: true,
         });
         function scrollHandler(){
-          console.log(window.scroll)
+          console.log(window.scrollY)
           if(window.scrollY != 0){
-            $('.navbar').addClass('py-4');
-          }else{
+            $('.navbar').removeClass('py-4');
             $('.navbar').addClass('py-2');
+          }else{
+            $('.navbar').removeClass('py-2');
+            $('.navbar').addClass('py-4');
           }
         }
         window.addEventListener("scroll", scrollHandler);
