@@ -55,13 +55,22 @@ a{
 }
 .banner{
   height: 700px;
-  margin-top: 48px;
+  margin-top: 72px;
 }
+
+.slick-slide img{
+  width: 100%;
+}
+
+.slick{
+  width: 100%;
+}
+
 .ml2, .banner p{
   font-weight: 500;
   font-size: 100px;
   animation: hue 1.5s linear infinite;
-  background-image: linear-gradient(to right bottom, rgb(0,255,0), rgb(0,255,128), rgb(0,255,255), rgb(0,128,255), rgb(0,0,255), rgb(128,0,255), rgb(255,0,255), rgb(255,0,128));
+  background-image: linear-gradient(to right bottom, #a18cd1, #fbc2eb, rgb(0,255,255), rgb(0,128,255), rgb(0,0,255), rgb(128,0,255), rgb(255,0,255), rgb(255,0,128));
   -webkit-background-clip: text;
 }
 

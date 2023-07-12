@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #b11d51;">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-4" style="background-color: #b11d51;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">首頁</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,15 +33,18 @@
       <p class="fs-2 mb-3">日期：2023/9/3～9/5</p>
       <p class="fs-3">※要注意防曬哦!!</p>
     </div>
-    <div class="slick">
+    <div class="slick container">
       <div class="slick_img">
-        <img src="image/Penghu.jpg" alt="" width="100%" height="600px">
+        <img src="image/Penghu.jpg" alt="澎湖風景圖" width="50%" height="700px">
       </div>
       <div>
-        <img src="image/2下載.jpg" alt=""  width="100%" height="600px">
+        <img src="image/Penghu1.jpg" alt="澎湖風景圖"  width="50%" height="700px">
       </div>
       <div>
-        <img src="image/下載.jpg" alt=""  width="100%" height="600px">
+        <img src="image/Penghu2.jpg" alt="澎湖風景圖"  width="50%" height="700px">
+      </div>
+      <div>
+        <img src="image/Penghu3.jpg" alt="澎湖風景圖"  width="50%" height="700px">
       </div>
     </div>
   </div>
@@ -106,6 +109,15 @@
           autoplaySpeed: 2000,
           autoplay: true,
         });
+        function scrollHandler(){
+          console.log(window.scroll)
+          if(window.scrollY != 0){
+            $('.navbar').addClass('py-4');
+          }else{
+            $('.navbar').addClass('py-2');
+          }
+        }
+        window.addEventListener("scroll", scrollHandler);
     })
     // Wrap every letter in a span
     var textWrapper = document.querySelector('.ml2');
