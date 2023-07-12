@@ -65,11 +65,13 @@ a{
   background-repeat: no-repeat;
 }
 
-.slick-slide img{
+.slick{
+  max-width: 100vw;
   width: 100%;
+  overflow: hidden;
 }
 
-.slick{
+.slick-slide img{
   width: 100%;
 }
 
