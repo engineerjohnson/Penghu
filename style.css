@@ -52,8 +52,14 @@ img{
   vertical-align:top;
 }
 .navbar{
-  position: sticky;
   transition:all 0.5s ease-out;
+}
+.navbar.style{
+  background-image: linear-gradient(to bottom, #b0c9f1 0%, #e3edf1 100%);
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: rgb(0,0,0);
 }
 
 a{
@@ -69,6 +75,7 @@ li div{
 
 .banner{
   height: 900px;
+  background-color: rgba(236, 220, 252, 0.1);
 }
 
 .slick{
@@ -87,7 +94,10 @@ li div{
   font-size: 20px;
   color: green;
 }
-
+.fa-circle-xmark{
+  font-size: 20px;
+  color: red;
+}
 .ml2, .banner p{
   font-weight: 500;
   font-size: 100px;
@@ -120,5 +130,5 @@ li div{
 }
 
 .footer p{
-  background-color: antiquewhite;
+  background-color: rgb(206, 220, 224);
 }
