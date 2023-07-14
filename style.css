@@ -74,11 +74,14 @@ li div{
 .slick{
   max-width: 80vw;
   width: 100%;
-  overflow: hidden;
+  text-align: center;
 }
 
 .slick-slide img{
-  width: 100%;
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle; /* 垂直置中圖片 */
+  height: auto;
 }
 .fa-circle-check{
   font-size: 20px;

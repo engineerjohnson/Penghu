@@ -36,17 +36,14 @@
     </div>
   </div>
     <div class="slick container mt-5">
-      <div class="slick_img">
-        <img src="image/Penghu.jpg" alt="澎湖風景圖" width="50%" height="700px">
+      <div>
+        <img src="image/Penghu1.jpg" alt="澎湖風景圖">
       </div>
       <div>
-        <img src="image/Penghu1.jpg" alt="澎湖風景圖"  width="50%" height="700px">
+        <img src="image/Penghu2.jpg" alt="澎湖風景圖">
       </div>
       <div>
-        <img src="image/Penghu2.jpg" alt="澎湖風景圖"  width="50%" height="700px">
-      </div>
-      <div>
-        <img src="image/Penghu3.jpg" alt="澎湖風景圖"  width="50%" height="700px">
+        <img src="image/Penghu3.jpg" alt="澎湖風景圖">
       </div>
     </div>
   <div class="container">
@@ -128,6 +125,8 @@
           autoplaySpeed: 2000,
           autoplay: true,
           arrows: true,
+          centerMode: true, // 啟用中央模式
+          centerPadding: '0', // 可選的內側間距，若無需內側間距，可以設為 '0'
         });
         function scrollHandler(){
           console.log(window.scrollY)
