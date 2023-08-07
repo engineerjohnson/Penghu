@@ -3,296 +3,167 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GO！澎湖三日游</title>
+  <title>澎湖三日遊行程</title>
+  <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
-  <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/979aacdde4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light py-4">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">首頁</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link fw-bold" href="#oneDay">第一日怎麼玩？</a>
-            <a class="nav-link fw-bold" href="#twoDay">第二日怎麼玩？</a>
-            <a class="nav-link fw-bold" href="#threeDay">第三日怎麼玩？</a>
-            <a class="nav-link fw-bold" href="#landscape">澎湖風景區介紹</a>
-            <a class="nav-link fw-bold" href="#Delicious">美食蓋消(介紹)</a>
-            <a class="nav-link fw-bold" href="#Budget">預算</a>
-          </div>
-        </div>
+  <!-- <nav>不確定要不要做 先擱著</nav> -->
+  <div class="content">
+    <div id="oneDay">
+      <div class="top">
+        <h2>第一天</h2>
+        <button type="button" class="button">點擊查看行程行程</button>
       </div>
-  </nav>
-  <div class="banner">
-    <div class="banner_text text-center">
-      <h1 class="pt-2 h1 ml2">澎湖三日游</h1>
-      <p class="fs-2 mb-3">日期：2023/10/1~10/3</p>
-      <p class="fs-3">跨海大橋、海洋牧場、夜釣小管、大倉島+bbq、柱狀玄武岩</p>
     </div>
-  </div>
-    <div class="slick container mt-5">
+    <div id="oneDay_content" class="mt-3">
+      <p>7：30從台中出發嘉義</p>
+      <p>9：30的船(路程約90分鐘)</p>
+      <p>11：00到澎湖租機車/放行李</p>
+      <p>12：00吃午餐（當地找餐廳）</p>
+      <p>14：00跨海大橋/仙人掌冰（騎車環島）</p>
+      <p></p>19：00 BBQ烤肉吃到飽</p>
+      <p>餐廳推薦：
+        <i class="fa-regular fa-circle-check me-2"></i>澎漁宴
+      </p>
+    </div>
+    <div id="twoDay">
+      <div class="top">
+        <h2>第二天</h2>
+        <button type="button" class="button">點擊查看行程</button>
+      </div>
+    </div>
+    <div id="twoDay_content" class="mt-3">
+      <p>7：40-17：30大倉島</p>
+      <p>18：00回民宿休息一下（整理）</p>
+      <p>19：00附近夜市或買小吃回民宿吃</p>
+    </div>
+    <div id="threeDay">
+      <div class="top">
+        <h2>第三天</h2>
+        <button type="button" class="button">點擊查看行程</button>
+      </div>
+    </div>
+    <div id="threeDay_content" class="mt-3">
       <div>
-        <img src="image/Penghu1.jpg" alt="澎湖風景圖">
+        <p>8：00吃早餐</p>
+        <p>9：30柱狀玄武岩/摩西分海（騎車環島）</p>
+        <p>12：00午餐（當地找餐廳）</p>
+        <p>13：30可去買伴手禮/逛免稅店</p>
+        <p>16：00回民宿整理至港口</p>
+        <p>17：00搭船回嘉義</p>
       </div>
       <div>
-        <img src="image/Penghu2.jpg" alt="澎湖風景圖">
-      </div>
-      <div>
-        <img src="image/Penghu3.jpg" alt="澎湖風景圖">
-      </div>
-    </div>
-  <div class="container">
-    <div class="mt-4">
-      <h2 class="h2 text-center mb-4" id="oneDay">第一天怎麼玩？</h2>
-      <ul class="row flex-row justify-content-center">
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>跨海大橋</div></li>
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>耍廢、亂晃</div></li>
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>海洋牧場</div></li>
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>夜釣小管</div></li>
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>打牌</div></li>
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-xmark"></i>睡覺</div></li>
-      </ul>
-      <div class="d-flex justify-content-center">
-        <div class="d-flex justify-content-between align-items-end oneDay-reverse">
-          <div class="me-3">
-            <p class="fw-bold fs-5"><a href="https://bobby.tw/blog/post/230509281-%E3%80%90%E6%BE%8E%E6%B9%96%E3%80%91%E6%B5%B7%E4%B8%8A%E7%9A%87%E5%AE%AE%E6%B5%B7%E6%B4%8B%E7%89%A7%E5%A0%B4%EF%BC%9A%E9%AE%AE%E8%9A%B5%E5%90%83%E5%88%B0%E9%A3%BD%EF%BC%86%E9%87%A3">海洋牧場介紹</a></p>
-            <ul class="my-3">
-              <li class="my-2"></li>會坐船過去，所以會暈船的人很雖</li>
-              <li class="my-2">去外面體驗釣魚，就跟姜太公釣魚，願者上鈎</li>
-              <li class="my-2">去那裡還點快炒？你要確定ㄟ!!!</li>
-            </ul>
-            <h4 class="h4">海洋牧場</h4>
-          </div>
-          <div><img src="image/海洋牧場.jpg" alt="海洋牧場" width="300px"></div>
-        </div>
-      </div>
-      <div class="d-flex justify-content-center">
-        <div class="d-flex justify-content-between align-items-end oneDay">
-          <div class="ms-3">
-            <p class="fw-bold fs-5"><a href="https://bobby.tw/blog/post/230506451-%E3%80%90%E6%BE%8E%E6%B9%96%E5%A4%9C%E9%87%A3%E5%B0%8F%E7%AE%A1%E6%8E%A8%E8%96%A6%E3%80%91%E5%A4%9C%E9%87%A3%E5%B0%8F%E7%AE%A1%E6%8A%80%E5%B7%A7%E3%80%81%E5%B0%8F%E7%AE%A1%E5%AD%A3">夜釣小管技巧</a></p>
-            <ul class="my-3">
-              <li class="my-2">不要暈船</li>
-              <li class="my-2">不要暈船</li>
-              <li class="my-2">不要暈船</li>
-            </ul>
-            <h4 class="h4">夜釣小管</h4>
-          </div>
-          <div><img src="image/夜釣小管.jpg" alt="夜釣小管" width="300px"></div>
-        </div>
-      </div>
-    </div>
-    <div style="margin: 50px 0px;">
-      <h2 class="h2 text-center mb-4" id="twoDay">第二天怎麼玩？</h2>
-      <ul class="row flex-row justify-content-center">
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>大倉島</div></li>
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>五合一水上活動</div></li>
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>餵燕鷗</div></li>
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>潮間帶介紹</div></li>
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>浮淺</div></li>
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>bbq</div></li>
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>打麻將</div></li>
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-xmark"></i>睡覺</div></li>
-      </ul>
-      <h4 class="h4 text-center mt-4">大倉島景點活動介紹</h4>
-      <p class="text-danger text-center mb-4 fw-bold">請以當時前況為主 以下圖片僅供參考</p>
-      <div class="slick-water-activities">
-        <div>
-          <img src="image/大倉.jpg" alt="水上設施" width="auto" height="522px">
-          <h4 class="mt-2 fw-bold">水上設施</h4>
-        </div>
-        <div>
-          <img src="image/大倉2.jpg" alt="餵燕鷗" width="auto" height="522px">
-          <h4 class="mt-2 fw-bold">餵燕鷗</h4>
-        </div>
-        <div>
-          <img src="image/大倉3.jpg" alt="潮間帶" width="auto" height="522px">
-          <h4 class="mt-2 fw-bold">潮間帶</h4>
-        </div>
-        <div>
-          <img src="image/大倉4.jpg" alt="浮淺" width="auto" height="522px">
-          <h4 class="mt-2 fw-bold">浮淺</h4>
-        </div>
-        <div>
-          <img src="image/大倉5.jpg" alt="跳水" width="auto" height="522px">
-          <h4 class="mt-2 fw-bold">跳水</h4>
+        <h2 class="h2 text-center">摩西分海潮汐預報表</h2>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr>
+              <th scope="col">日期</th>
+              <th scope="col">滿潮</th>
+              <th scope="col">乾潮</th>
+              <th scope="col">參考安全通行時段</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-success">
+              <th scope="row">10/1(日)</th>
+              <td>12：33</td>
+              <td>18：26</td>
+              <td>15：30-17：30</td>
+            </tr>
+            <tr class="table-primary">
+              <th scope="row">10/2(一)</th>
+              <td>00：44</td>
+              <td>06：54</td>
+              <td>08：00-09：00</td>
+            </tr>
+            <tr class="table-primary">
+              <th scope="row">10/2(一)</th>
+              <td>13：18</td>
+              <td>19：02</td>
+              <td>16：30-17：30</td>
+            </tr>
+            <tr class="table-warning">
+              <th scope="row">10/3(二)</th>
+              <td>01：18</td>
+              <td>07：38</td>
+              <td>08：00-09：30</td>
+            </tr>
+            <tr class="table-warning">
+              <th scope="row">10/3(二)</th>
+              <td>14：03</td>
+              <td>19：41</td>
+              <td>夜間非公告開放時間</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="mb-3 text-center">
+          <a href="https://www.penghu-nsa.gov.tw/TravelGuide/Tidenew/11210tide.htm">潮汐預報表</a>
         </div>
       </div>
     </div>
-    <div>
-      <h2 class="h2 text-center mb-4" id="threeDay">第三天怎麼玩？</h2>
-      <ul class="row flex-row justify-content-center">
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>柱狀玄武岩</div></li>
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>耍廢、亂晃</div></li>
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>午餐</div></li>
-        <li class="col-5 mb-2 text-center"><div><i class="fa-regular fa-circle-check me-2"></i>回家</div></li>
-      </ul>
-      <div class="text-center my-4">
-        <div>
-          <img src="image/風景.jpg" alt="柱狀玄武岩">
-          <p style="width: 60%; margin: 10px auto;">日治時期為聯絡馬公與西嶼間的海上交通，在大菓葉海邊闢建碼頭，挖取石塊泥土時意外地發掘了這片埋於土中、沈睡千年的壯麗柱狀玄武岩，可謂澎湖本島容易親近的柱狀玄武岩。 </p>
-        </div>
+    <div id="budget">
+      <div class="top">
+        <h2>預算</h2>
+        <button type="button" class="button">點擊查看行程</button>
       </div>
     </div>
-    <div>
-      <h2 class="h2 text-center mb-4" id="landscape"><a href="https://www.penghu-nsa.gov.tw/ChiHoOneLer/Scenery04/PopularDestination/Top10.htm">澎湖風景區介紹</a></h2>
-      <div class="text-center">
-        <div>
-          <h3 class="h3 text-center mb-4">澎湖-澎湖奎壁山摩西分海</h3>
-          <img src="/image/images.jpg" alt="摩西分海">
-          <div class="Delicious-table">
-            <table class="table table-bordered table-hover">
-              <thead>
-                <tr>
-                  <th scope="col">日期</th>
-                  <th scope="col">滿潮</th>
-                  <th scope="col">乾潮</th>
-                  <th scope="col">參考安全通行時段</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="table-success">
-                  <th scope="row">10/1(日)</th>
-                  <td>12:33</td>
-                  <td>18:26</td>
-                  <td>15:30-17:30</td>
-                </tr>
-                <tr class="table-primary">
-                  <th scope="row">10/2(一)</th>
-                  <td>00:44</td>
-                  <td>06:54</td>
-                  <td>08:00-09:00</td>
-                </tr>
-                <tr class="table-primary">
-                  <th scope="row">10/2(一)</th>
-                  <td>13:18</td>
-                  <td>19:02</td>
-                  <td>16:30-17:30</td>
-                </tr>
-                <tr class="table-warning">
-                  <th scope="row">10/3(二)</th>
-                  <td>01:18</td>
-                  <td>07:38</td>
-                  <td>08:00-09:30</td>
-                </tr>
-                <tr class="table-warning">
-                  <th scope="row">10/3(二)</th>
-                  <td>14:03</td>
-                  <td>19:41</td>
-                  <td>夜間非公告開放時間</td>
-                </tr>
-              </tbody>
-            </table>
-            <div class="mt-2">
-              <a href="https://www.penghu-nsa.gov.tw/TravelGuide/Tidenew/11210tide.htm">參考</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <h2 class="h2 text-center mb-4" id="Delicious">美食蓋消(介紹)</h2>
-    </div>
-    <div>
-      <h2 class="h2 text-center" id="Budget">預算</h2>
-      <table class="table table-striped table-hover">
+    <div id="budget_content" class="mt-3">
+      <h2 class="h2 text-center">預算</h2>
+      <table class="table table-dark table-striped">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">住宿+機車</th>
+            <th scope="col">船票來回</th>
+            <th scope="col">BBQ</th>
+            <th scope="col">大倉島</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <th scope="row">$2500</th>
+            <td>大人1400<br>小孩975</td>
+            <td>大人450<br>小孩250</td>
+            <td>大人1500<br>小孩1300</td>
           </tr>
         </tbody>
       </table>
+      <p class="text-end me-3">總計：平均一人$5850</p>
+    </div>
+    <div id="stay">
+      <div class="top">
+        <h2>住宿</h2>
+        <button type="button" class="button">點擊查看行程</button>
+      </div>
+    </div>
+    <div id="stay_content" class="my-3">
+      <a href="https://www.mihai.com.tw/">覓海民宿官網</a>
     </div>
   </div>
   <div class="footer">
     <p class="text-center py-3">純文案並無商業用途 2023 © All Rights Reserved</p>
   </div>
   <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
-  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
   <script>
     $(document).ready(function(){
-        $('.slick').slick({
-          dots: true,
-          infinite: true,
-          autoplaySpeed: 2000,
-          autoplay: true,
-          arrows: true,
-          centerMode: true, // 啟用中央模式
-          centerPadding: '0', // 可選的內側間距，若無需內側間距，可以設為 '0'
-        });
-        $('.slick-water-activities').slick({
-          dots: true,
-          infinite: true,
-          autoplaySpeed: 2000,
-          autoplay: true,
-          arrows: true,
-          centerMode: true, // 啟用中央模式
-          centerPadding: '0', // 可選的內側間距，若無需內側間距，可以設為 '0'
-        });
-        function scrollHandler(){
-          if(window.scrollY != 0){
-            $('.navbar').removeClass('py-4');
-            $('.navbar').addClass('py-2 style');
-          }else{
-            $('.navbar').removeClass('py-2 style');
-            $('.navbar').addClass('py-4');
-          }
-        }
-        window.addEventListener("scroll", scrollHandler);
-        $('.banner').parallax({imageSrc: 'image/Penghu.jpg'});
+      $('#oneDay .button').on('click', function(){
+        $('#oneDay_content').slideToggle('show');
+      })
+      $('#twoDay .button').on('click', function(){
+        $('#twoDay_content').slideToggle('show');
+      })
+      $('#threeDay .button').on('click', function(){
+        $('#threeDay_content').slideToggle('show');
+      })
+      $('#budget .button').on('click', function(){
+        $('#budget_content').slideToggle('show');
+      })
+      $('#stay .button').on('click', function(){
+        $('#stay_content').slideToggle('show');
+      })
     })
-    // Wrap every letter in a span
-    var textWrapper = document.querySelector('.ml2');
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-    anime.timeline({loop: true})
-      .add({
-        targets: '.ml2 .letter',
-        scale: [4,1],
-        opacity: [0,1],
-        translateZ: 0,
-        easing: "easeOutExpo",
-        duration: 950,
-        delay: (el, i) => 70*i
-      }).add({
-        targets: '.ml2',
-        opacity: 0,
-        duration: 1000,
-        easing: "easeOutExpo",
-        delay: 1000
-      });
   </script>
 </body>
 </html>
