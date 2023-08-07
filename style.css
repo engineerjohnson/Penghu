@@ -49,7 +49,7 @@ img{
 
 #oneDay, #twoDay, #threeDay, #budget, #stay{
   width: 100%;
-  height: 600px;
+  height: 1000px;
   padding: 120px 0;
   color: white;
   text-align: center;
@@ -59,9 +59,6 @@ img{
 .content .top p,.content .top h2{
   font-weight: 800;
   font-size: 30px;
-}
-
-#threeDay, #budget, #stay{
 }
 
 #oneDay{
