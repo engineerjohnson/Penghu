@@ -68,7 +68,7 @@ h1{
 }
 
 #oneDay{
-  background: linear-gradient(0deg, rgba(255,243,141, 0.4), rgba(255,243,141, 0.4)), url('../Penghu/image/images.jpg');
+  background: linear-gradient(0deg, rgba(255,160,122, 0.1), rgba(255,160,122, 0.1)), url('../Penghu/image/images.jpg');
   background-size: 100% 110%;
   background-position: center;
   background-repeat: no-repeat;
@@ -82,7 +82,7 @@ h1{
 }
 
 #threeDay{
-  background: linear-gradient(0deg, rgba(255,160,122, 0.1), rgba(255,160,122, 0.1)), url('../Penghu/image/Penghu2.jpg');
+  background: linear-gradient(0deg, rgba(255,243,141, 0.4), rgba(255,243,141, 0.4)), url('../Penghu/image/Penghu2.jpg');
   background-size: 100% 110%;
   background-position: center;
   background-repeat: no-repeat;
