@@ -163,12 +163,47 @@ h1{
   display: inline-block;
 }
 
+.slick{
+  max-width: 500px;
+  margin: auto;
+}
+
+.slick a{
+  display: block;
+  text-align: center;
+}
+
+.slick img{
+  max-width: 500px;
+  height: auto;
+}
+
+#snack_content .slick img, #dining_room_content .slick img, #threeDay_content .slick img, #twoDay_content .slick img{
+  margin: auto;
+  height: 400px;
+}
+
 @media(max-width:992px){
   #dining_room, #snack, #oneDay, #twoDay, #threeDay, #budget, #stay{
     height: 400px;
   }
   #budget_content p{
     margin-right: 85px !important;
+  }
+
+  .slick{
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .slick img{
+    max-width: 400px;
+    height: auto;
+  }
+
+  #snack_content .slick img, #dining_room_content .slick img, #threeDay_content .slick img, #twoDay_content .slick img{
+    margin: auto;
+    height: 350px;
   }
 }
 
@@ -179,6 +214,21 @@ h1{
   #budget_content p{
     margin-right: 30px !important;
   }
+
+  .slick{
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .slick img{
+    max-width: 400px;
+    height: auto;
+  }
+
+  #snack_content .slick img, #dining_room_content .slick img, #threeDay_content .slick img, #twoDay_content .slick img{
+    margin: auto;
+    height: 300px;
+  }
 }
 
 @media(max-width:576px){
@@ -187,5 +237,20 @@ h1{
   }
   #budget_content p{
     margin-right: 16px !important;
+  }
+
+  .slick{
+    max-width: 300px;
+    margin: auto;
+  }
+
+  .slick img{
+    max-width: 300px;
+    height: auto;
+  }
+
+  #snack_content .slick img, #dining_room_content .slick img, #threeDay_content .slick img, #twoDay_content .slick img{
+    margin: auto;
+    height: 224px;
   }
 }
