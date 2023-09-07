@@ -68,49 +68,49 @@ h1{
 }
 
 #dining_room{
-  background: linear-gradient(0deg, rgba(226,150,223, 0.2), rgba(226,150,223, 0.2)), url('../Penghu/image/澎漁宴.jpg');
+  background: linear-gradient(0deg, rgba(226,150,223, 0.2), rgba(226,150,223, 0.2)), url('image/澎漁宴.jpg');
   background-size: 100% 110%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #snack{
-  background: linear-gradient(0deg, rgba(85,157,205, 0.4), rgba(85,157,205, 0.4)), url('../Penghu/image/玉冠.jpg');
+  background: linear-gradient(0deg, rgba(85,157,205, 0.4), rgba(85,157,205, 0.4)), url('image/玉冠.jpg');
   background-size: 100% 110%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #oneDay{
-  background: linear-gradient(0deg, rgba(255,160,122, 0.1), rgba(255,160,122, 0.1)), url('../Penghu/image/images.jpg');
+  background: linear-gradient(0deg, rgba(255,160,122, 0.1), rgba(255,160,122, 0.1)), url('image/images.jpg');
   background-size: 100% 110%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #twoDay{
-  background: linear-gradient(0deg, rgba(255,201,141, 0.4), rgba(255,201,141, 0.4)), url('../Penghu/image/大倉2.jpg');
+  background: linear-gradient(0deg, rgba(255,201,141, 0.4), rgba(255,201,141, 0.4)), url('image/大倉2.jpg');
   background-size: 100% 110%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #threeDay{
-  background: linear-gradient(0deg, rgba(255,243,141, 0.4), rgba(255,243,141, 0.4)), url('../Penghu/image/Penghu2.jpg');
+  background: linear-gradient(0deg, rgba(255,243,141, 0.4), rgba(255,243,141, 0.4)), url('image/Penghu2.jpg');
   background-size: 100% 110%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #budget{
-  background: linear-gradient(0deg, rgba(141,255,200, 0.1), rgba(141,255,200, 0.1)), url('../Penghu/image/預算.jpg');
+  background: linear-gradient(0deg, rgba(141,255,200, 0.1), rgba(141,255,200, 0.1)), url('image/預算.jpg');
   background-size: 100% 110%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #stay{
-  background: linear-gradient(0deg, rgba(122,191,255, 0.0), rgba(122, 191, 255, 0.0)), url('../Penghu/image/民宿.png');
+  background: linear-gradient(0deg, rgba(122,191,255, 0.0), rgba(122, 191, 255, 0.0)), url('image/民宿.png');
   background-size: 100% 110%;
   background-position: center;
   background-repeat: no-repeat;
